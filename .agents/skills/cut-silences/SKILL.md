@@ -78,6 +78,8 @@ The JSON summary printed to stdout includes `removed`, `removedPct`, range count
 - Talking-head YouTube default (`--gap 0.55`) removes roughly 15-20% of a typical raw take as pure silence. Lower `--gap` for a punchier, faster cut; raise it to preserve more natural breathing room.
 - If a cut feels too aggressive at sentence boundaries, raise the sentence-break breath, or raise `--gap`.
 
-## Hand-off to the next agent
+## Pipeline Integration & Hand-offs
 
-Pass `<stem>.silence-transcript.json` (and the `silenced.mp4` if rendered) to the **cut-mistakes** agent. Because timestamps are already on the edited timeline, downstream beat timing and `scripts/validate-beat-sync.mjs` work without further adjustment.
+- **Upstream Orchestrator:** Managed by [edit-video](../edit-video/SKILL.md). Complete pipeline details in [docs/LONG-FORM.md](../../../docs/LONG-FORM.md).
+- **Downstream Agent:** Pass `<stem>.silence-transcript.json` and `<stem>.silenced.mp4` directly to [cut-mistakes](../cut-mistakes/SKILL.md). Because timestamps are re-aligned onto the edited timeline, downstream beat timing and `scripts/validate-beat-sync.mjs` work without further adjustment.
+

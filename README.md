@@ -91,8 +91,8 @@ Open this repository folder in Codex or Claude Code and say:
 
 Codex: `$edit-video`. Claude Code: `/edit-video`. For a single operation use
 `cut-silences`, `cut-mistakes`, `video-storytelling`, or `style-library`.
-See the [step-by-step workflow](docs/WORKFLOW.md), [prompt recipes](docs/PROMPTS.md),
-and [storytelling workbook](docs/STORYTELLING-WORKBOOK.md).
+See the [step-by-step workflow](docs/WORKFLOW.md), [long-form guide](docs/LONG-FORM.md),
+[prompt recipes](docs/PROMPTS.md), and [storytelling workbook](docs/STORYTELLING-WORKBOOK.md).
 
 ## Create a reel or YouTube Short
 

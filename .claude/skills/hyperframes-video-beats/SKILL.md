@@ -18,6 +18,14 @@ Keep the viewer oriented and engaged. Every beat must answer one of these:
 
 Do not add graphics just because a gap exists. Add graphics because the narration has a topic, transition, proof point, or mental model that benefits from visual support.
 
+## Pipeline Integration & Associated Skills
+
+- **Master Orchestrator:** Coordinated by [edit-video](../edit-video/SKILL.md). Complete pipeline in [docs/LONG-FORM.md](../../../docs/LONG-FORM.md).
+- **Macro Architecture:** Paired with [video-storytelling](../video-storytelling/SKILL.md), which establishes the persistent visual world, speaker safe zones, and PiP docking.
+- **Card Catalog:** Select components from [style-library](../style-library/SKILL.md) (`02-kallaway/` Aurora Glass & `01-vox-explainer/`).
+- **Animation Standards:** Follow [gsap](../gsap/SKILL.md) for power eases and mandatory Law #11 duration locks.
+- **Verification:** Enforce word sync via [hyperframes-cli](../hyperframes-cli/SKILL.md) and `scripts/validate-beat-sync.mjs`.
+
 ## First Pass
 
 1. Read project instructions (`AGENTS.md`, local skill docs, and project-specific notes).

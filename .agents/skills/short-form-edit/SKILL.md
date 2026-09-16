@@ -12,6 +12,8 @@ when requested, also compose 1920x1080 with its own framing and text placement.
 Verify each aspect ratio independently, including its opening and CTA. The edit must tell the
 speaker's story through images, timing, and sound. Virality is an aspiration, not
 a result that editing can guarantee. Work locally unless delegation is requested.
+For 16:9 landscape long-form videos (explainers, tutorials), use [edit-video](../edit-video/SKILL.md).
+
 
 ## Priority
 
@@ -43,7 +45,7 @@ this test. Treat the answer as editorial judgment until audience data exists.
    distinctive source moment shape the idea. Choose what reads in one glance;
    fit the complete action and result before considering a tighter crop. A filled
    frame is not useful if the viewer cannot see what is happening.
-5. Read every spoken line. Run silence and mistake tools, then manually review
+5. Read every spoken line. Run silence and mistake tools ([cut-silences](../cut-silences/SKILL.md) and [cut-mistakes](../cut-mistakes/SKILL.md)), then manually review
    the full transcript: a zero-candidate report can miss an obvious retake.
    Remove abandoned takes, preserve meaningful qualifications and the payoff,
    and keep natural breath around joins. Save reviewed source-time cut reasons.

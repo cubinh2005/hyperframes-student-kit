@@ -26,3 +26,10 @@ When adding a style, use `node scripts/style-library/new-style.mjs 03 my-style "
 complete its design tokens, manifest, and cards. Run
 `node scripts/style-library/build-registry.mjs` after manifest changes. Keep
 project-specific copy in the project, leaving reusable library cards generic.
+
+## Pipeline Integration & Associated Skills
+
+- **Motion Overlays:** Integrate chosen cards with [hyperframes-video-beats](../hyperframes-video-beats/SKILL.md).
+- **Macro Framing:** Match layout with [video-storytelling](../video-storytelling/SKILL.md) safe zones.
+- **Studio Design Standard:** Strictly follow [DESIGN.md](../../../DESIGN.md) for fonts, colors, and elevations.
+- **Pipeline Orchestrator:** Coordinated by [edit-video](../edit-video/SKILL.md).

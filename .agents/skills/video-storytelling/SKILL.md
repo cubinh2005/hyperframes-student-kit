@@ -14,13 +14,13 @@ makes the viewer restart comprehension every few seconds, and no individual
 graphic is at fault, which is why the feedback comes back as the vague
 "confusing" or "too much going on" rather than as a specific defect.
 
-For a neutral practice beat sheet, read `docs/STORYTELLING-WORKBOOK.md` at the
-repository root. The reusable design system is in this skill's
+For a neutral practice beat sheet, read [docs/STORYTELLING-WORKBOOK.md](../../../docs/STORYTELLING-WORKBOOK.md) at the
+repository root, or the master guide in [docs/LONG-FORM.md](../../../docs/LONG-FORM.md). The reusable design system is in this skill's
 `reference/design-system.md`; the worked open-loop geometry is in
 `reference/patterns/wall-of-slots/`. Private source videos are not required.
 
-This is not `hyperframes-video-beats`. That skill places overlay cards on top of
-a talking head. This one designs the thing the video is *about*.
+This works hand-in-hand with [hyperframes-video-beats](../hyperframes-video-beats/SKILL.md). While `hyperframes-video-beats` places transcript-anchored overlay cards, this skill designs the persistent spatial canvas the video is *about*. The entire workflow is orchestrated by [edit-video](../edit-video/SKILL.md).
+
 
 ## 1 · The four principles
 

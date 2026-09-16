@@ -65,8 +65,11 @@ node scripts/build-edl-review.mjs <stem>.mistakes-edl.json \
 npx serve . -p 8080 -n
 ```
 
-## Notes
+## Pipeline Integration & Hand-offs
 
-- A very clean delivery may yield few or zero real cuts — that's a valid outcome; don't cut natural speech to hit a quota.
-- Cuts between two spoken words are hard joins. They're usually clean for stutters/false starts; for tighter audio a 20-30ms fade can be added later.
-- Hand the `mistakes-transcript.json` + the clean video to **Agent 3 (motion graphics / tiered cards)**.
+- **Upstream Agent:** Receives input from [cut-silences](../cut-silences/SKILL.md) (`raw.silence-transcript.json`).
+- **Downstream Agents:** Copy `raw.mistakes-transcript.json` to `assets/transcript.json` and pass `clean.mp4` to:
+  - [video-storytelling](../video-storytelling/SKILL.md): Sets camera framing, persistent world, and PiP transitions.
+  - [hyperframes-video-beats](../hyperframes-video-beats/SKILL.md): Times overlay cards to spoken words via `data-anchor`.
+- **Master Orchestrator:** Managed by [edit-video](../edit-video/SKILL.md). Complete pipeline in [docs/LONG-FORM.md](../../../docs/LONG-FORM.md).
+

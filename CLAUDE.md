@@ -69,6 +69,7 @@ Standalone full-scene starting points:
 | `npm run new-video -- <slug>` | `scripts/new-video.mjs` | Scaffolds a new project under `video-projects/<slug>` with brand tokens, local GSAP, and matching timeline key |
 | `npm run preflight [project]` | `scripts/preflight.mjs` | Validates root dimensions, video wrappers, timeline registration, and sub-composition paths |
 | `npm run preflight:all` | `scripts/preflight-all.mjs` | Runs preflight verification across all active projects in `video-projects/` |
+| `npm run pipeline [slug]` | `scripts/pipeline.mjs` | Inspects 5-stage pipeline status, missing artifacts, and next steps for any video project |
 | `npm run check` | `scripts/check-kit.mjs` | Verifies distribution integrity, 406 cards, unique IDs, slot contracts, and skills |
 | `npm test` | `tests/*.test.mjs` | Runs test suite (silence edits, stutter cuts, beat validation, short-form plans) |
 | `npm run catalog` | `scripts/style-library/build-registry.mjs` | Scans `style-library/` and regenerates `style-library/registry.json` |
@@ -82,8 +83,9 @@ Standalone full-scene starting points:
 ## 5. Documentation Directory (`docs/`)
 
 - `docs/WORKFLOW.md`: Complete 5-stage production guide (Transcribe → Cut Silences → Cut Mistakes → Visual Compositions → Render).
-- `docs/TOOLS-AND-API-KEYS.md`: API configuration and exact JSON transcript schema (`words: [{text, start, end}]`).
+- `docs/LONG-FORM.md`: Dedicated blueprint for 16:9 long-form YouTube explainers, keynotes, and masterclasses.
 - `docs/SHORT-FORM.md`: Dedicated guide for 9:16 vertical reels, Shorts, and TikTok.
+- `docs/TOOLS-AND-API-KEYS.md`: API configuration and exact JSON transcript schema (`words: [{text, start, end}]`).
 - `docs/SETUP.md`: Environment setup, FFmpeg troubleshooting, and HyperFrames doctor diagnostics.
 - `docs/PROMPTS.md`: Standard prompt recipes for delegating editing stages to AI.
 - `docs/STORYTELLING-WORKBOOK.md`: Principles of continuous camera flow, persistent visual worlds, and open loops.

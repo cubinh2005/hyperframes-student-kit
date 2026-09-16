@@ -8,6 +8,7 @@
     "transcribe": "node scripts/transcribe-elevenlabs.mjs",
     "validate-beats": "node scripts/validate-beat-sync.mjs",
     "preflight": "node scripts/preflight.mjs",
+    "pipeline": "node scripts/pipeline.mjs",
     "sync:skills": "node scripts/sync-codex-skills.mjs",
     "check:skills": "node scripts/sync-codex-skills.mjs --check",
     "setup": "node scripts/setup.mjs",
