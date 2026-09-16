@@ -35,12 +35,6 @@
           <span data-hf-id="hf-e93y" class="b4-habit-text"><span data-hf-id="hf-j3sw">Thói quen làm việc ăn may</span></span>
         </div>
       </div>
-
-      <!-- Outro CTA Anchor -->
-      <div data-hf-id="hf-pnqk" class="b4-outro">
-        <div data-hf-id="hf-gc3q" class="b4-outro-tick"></div>
-        <div data-hf-id="hf-cbls" class="b4-outro-text">LÀM CHỦ AI · WORKFLOW</div>
-      </div>
     </div>
 
     <style>
@@ -228,30 +222,6 @@
       [data-composition-id="beat-4-takeaway"] .b4-habit-text span.struck {
         color: rgba(255, 255, 255, 0.50);
       }
-
-      /* ─── Outro CTA Bar ─── */
-      [data-composition-id="beat-4-takeaway"] .b4-outro {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        margin-top: 10px;
-        opacity: 0;
-      }
-      [data-composition-id="beat-4-takeaway"] .b4-outro-tick {
-        width: 70px;
-        height: 6px;
-        background: #37bdf8;
-        border-radius: 3px;
-        box-shadow: 0 0 18px rgba(55, 189, 248, 0.85);
-      }
-      [data-composition-id="beat-4-takeaway"] .b4-outro-text {
-        font-family: "Roboto Mono", monospace;
-        font-size: 18px;
-        font-weight: 700;
-        letter-spacing: 0.22em;
-        color: #37bdf8;
-        text-shadow: 0 0 14px rgba(55, 189, 248, 0.6);
-      }
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
@@ -336,13 +306,6 @@
         if (span2) {
           tl.add(() => span2.classList.add("struck"), 3.30);
         }
-
-        // Outro CTA bar sweeps in at 3.55s and holds until end
-        tl.to('[data-composition-id="beat-4-takeaway"] .b4-outro', { opacity: 1, duration: 0.01 }, 3.55);
-        tl.from('[data-composition-id="beat-4-takeaway"] .b4-outro-tick',
-          { width: 0, opacity: 0, duration: 0.45, ease: "power3.out" }, 3.55);
-        tl.from('[data-composition-id="beat-4-takeaway"] .b4-outro-text',
-          { opacity: 0, x: -14, duration: 0.40, ease: "expo.out" }, 3.65);
 
         // Duration anchor
         tl.to({}, { duration: 4.60 }, 0);

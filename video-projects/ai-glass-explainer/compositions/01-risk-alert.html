@@ -16,11 +16,6 @@
       </div>
 
       <div data-hf-id="hf-7n2c" class="b1-underline"></div>
-
-      <div data-hf-id="hf-6ech" class="b1-context">
-        <span data-hf-id="hf-b1b7" class="b1-bullet">›</span>
-        <span data-hf-id="hf-236z" class="b1-context-text">Cảnh báo phụ thuộc công cụ trong workflow</span>
-      </div>
     </div>
 
     <style>
@@ -140,24 +135,6 @@
         border-radius: 3px;
         box-shadow: 0 0 20px rgba(55, 189, 248, 0.75);
       }
-
-      /* ─── Script-anchored Minimal Context Line ─── */
-      [data-composition-id="beat-1-risk"] .b1-context {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: "Roboto Mono", monospace;
-        font-size: 15px;
-        font-weight: 500;
-        color: rgba(255, 255, 255, 0.65);
-        letter-spacing: 0.02em;
-        margin-top: -6px;
-      }
-      [data-composition-id="beat-1-risk"] .b1-bullet {
-        color: #37bdf8;
-        font-weight: 700;
-        font-size: 18px;
-      }
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
@@ -172,8 +149,6 @@
         // Card slides in from the left with blur-clear
         tl.from('[data-composition-id="beat-1-risk"] .b1-card',
           { x: -60, opacity: 0, filter: "blur(14px)", duration: 0.65, ease: "power3.out" }, 0.20);
-
-
 
         // Brand labels fade up
         tl.from('[data-composition-id="beat-1-risk"] .b1-eyebrow',
@@ -190,10 +165,6 @@
         // Cyan underline sweep bar
         tl.from('[data-composition-id="beat-1-risk"] .b1-underline',
           { width: 0, opacity: 0, duration: 0.50, ease: "expo.out" }, 2.80);
-
-        // Context line fades in smoothly
-        tl.from('[data-composition-id="beat-1-risk"] .b1-context',
-          { opacity: 0, x: -10, duration: 0.40, ease: "power2.out" }, 3.10);
 
         // Duration anchor (Law #11)
         tl.to({}, { duration: 4.40 }, 0);
