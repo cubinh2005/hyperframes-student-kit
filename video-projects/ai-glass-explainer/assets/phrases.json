@@ -1,0 +1,717 @@
+[
+  {
+    "id": "phrase_0",
+    "start": 0.15,
+    "end": 2.4,
+    "words": [
+      {
+        "id": "w_0",
+        "text": "Ở",
+        "start": 0.15,
+        "end": 0.26
+      },
+      {
+        "id": "w_1",
+        "text": "video",
+        "start": 0.26,
+        "end": 0.34
+      },
+      {
+        "id": "w_2",
+        "text": "trước,",
+        "start": 0.34,
+        "end": 0.58
+      },
+      {
+        "id": "w_3",
+        "text": "mình",
+        "start": 0.58,
+        "end": 0.72
+      },
+      {
+        "id": "w_4",
+        "text": "có",
+        "start": 0.72,
+        "end": 0.86
+      },
+      {
+        "id": "w_5",
+        "text": "nói",
+        "start": 0.86,
+        "end": 0.94
+      },
+      {
+        "id": "w_6",
+        "text": "một",
+        "start": 0.94,
+        "end": 1.04
+      },
+      {
+        "id": "w_7",
+        "text": "câu",
+        "start": 1.04,
+        "end": 1.22
+      },
+      {
+        "id": "w_8",
+        "text": "khiến",
+        "start": 1.22,
+        "end": 1.52
+      },
+      {
+        "id": "w_9",
+        "text": "khá",
+        "start": 1.52,
+        "end": 1.8
+      },
+      {
+        "id": "w_10",
+        "text": "nhiều",
+        "start": 1.8,
+        "end": 1.94
+      },
+      {
+        "id": "w_11",
+        "text": "bạn",
+        "start": 1.94,
+        "end": 2.08
+      },
+      {
+        "id": "w_12",
+        "text": "giật",
+        "start": 2.08,
+        "end": 2.26
+      },
+      {
+        "id": "w_13",
+        "text": "mình:",
+        "start": 2.26,
+        "end": 2.4
+      }
+    ]
+  },
+  {
+    "id": "phrase_1",
+    "start": 2.4,
+    "end": 4.38,
+    "words": [
+      {
+        "id": "w_14",
+        "text": "Đừng",
+        "start": 2.4,
+        "end": 2.78
+      },
+      {
+        "id": "w_15",
+        "text": "bao",
+        "start": 2.78,
+        "end": 2.94
+      },
+      {
+        "id": "w_16",
+        "text": "giờ",
+        "start": 2.94,
+        "end": 3.06
+      },
+      {
+        "id": "w_17",
+        "text": "phụ",
+        "start": 3.06,
+        "end": 3.26
+      },
+      {
+        "id": "w_18",
+        "text": "thuộc",
+        "start": 3.26,
+        "end": 3.32
+      },
+      {
+        "id": "w_19",
+        "text": "hoàn",
+        "start": 3.32,
+        "end": 3.54
+      },
+      {
+        "id": "w_20",
+        "text": "toàn",
+        "start": 3.54,
+        "end": 3.7
+      },
+      {
+        "id": "w_21",
+        "text": "vào các",
+        "start": 3.7,
+        "end": 3.88
+      },
+      {
+        "id": "w_22",
+        "text": "công",
+        "start": 3.88,
+        "end": 4.12
+      },
+      {
+        "id": "w_23",
+        "text": "cụ",
+        "start": 4.12,
+        "end": 4.22
+      },
+      {
+        "id": "w_24",
+        "text": "AI.",
+        "start": 4.22,
+        "end": 4.38
+      }
+    ]
+  },
+  {
+    "id": "phrase_2",
+    "start": 4.38,
+    "end": 7.42,
+    "words": [
+      {
+        "id": "w_25",
+        "text": "Sau",
+        "start": 4.38,
+        "end": 5.02
+      },
+      {
+        "id": "w_26",
+        "text": "cái",
+        "start": 5.02,
+        "end": 5.16
+      },
+      {
+        "id": "w_27",
+        "text": "video",
+        "start": 5.16,
+        "end": 5.34
+      },
+      {
+        "id": "w_28",
+        "text": "đó",
+        "start": 5.34,
+        "end": 5.62
+      },
+      {
+        "id": "w_29",
+        "text": "thì",
+        "start": 5.62,
+        "end": 5.82
+      },
+      {
+        "id": "w_30",
+        "text": "rất",
+        "start": 5.82,
+        "end": 6.26
+      },
+      {
+        "id": "w_31",
+        "text": "nhiều",
+        "start": 6.26,
+        "end": 6.42
+      },
+      {
+        "id": "w_32",
+        "text": "bạn",
+        "start": 6.42,
+        "end": 6.66
+      },
+      {
+        "id": "w_33",
+        "text": "nhắn",
+        "start": 6.66,
+        "end": 6.9
+      },
+      {
+        "id": "w_34",
+        "text": "tin",
+        "start": 6.9,
+        "end": 7.0
+      },
+      {
+        "id": "w_35",
+        "text": "hỏi",
+        "start": 7.0,
+        "end": 7.12
+      },
+      {
+        "id": "w_36",
+        "text": "mình",
+        "start": 7.12,
+        "end": 7.26
+      },
+      {
+        "id": "w_37",
+        "text": "là:",
+        "start": 7.26,
+        "end": 7.42
+      }
+    ]
+  },
+  {
+    "id": "phrase_3",
+    "start": 7.42,
+    "end": 10.18,
+    "words": [
+      {
+        "id": "w_38",
+        "text": "\"Nếu",
+        "start": 7.42,
+        "end": 7.56
+      },
+      {
+        "id": "w_39",
+        "text": "không",
+        "start": 7.56,
+        "end": 7.72
+      },
+      {
+        "id": "w_40",
+        "text": "phụ",
+        "start": 7.72,
+        "end": 7.88
+      },
+      {
+        "id": "w_41",
+        "text": "thuộc",
+        "start": 7.88,
+        "end": 8.02
+      },
+      {
+        "id": "w_42",
+        "text": "vào",
+        "start": 8.02,
+        "end": 8.4
+      },
+      {
+        "id": "w_43",
+        "text": "AI",
+        "start": 8.4,
+        "end": 8.62
+      },
+      {
+        "id": "w_44",
+        "text": "thì",
+        "start": 8.84,
+        "end": 9.04
+      },
+      {
+        "id": "w_45",
+        "text": "dùng",
+        "start": 9.04,
+        "end": 9.2
+      },
+      {
+        "id": "w_46",
+        "text": "nó",
+        "start": 9.2,
+        "end": 9.38
+      },
+      {
+        "id": "w_47",
+        "text": "làm",
+        "start": 9.38,
+        "end": 9.56
+      },
+      {
+        "id": "w_48",
+        "text": "sao",
+        "start": 9.63,
+        "end": 9.74
+      },
+      {
+        "id": "w_49",
+        "text": "cho",
+        "start": 9.74,
+        "end": 9.84
+      },
+      {
+        "id": "w_50",
+        "text": "hiệu",
+        "start": 9.84,
+        "end": 10.0
+      },
+      {
+        "id": "w_51",
+        "text": "quả?",
+        "start": 10.0,
+        "end": 10.18
+      }
+    ]
+  },
+  {
+    "id": "phrase_4",
+    "start": 10.18,
+    "end": 15.32,
+    "words": [
+      {
+        "id": "w_52",
+        "text": "Ngày",
+        "start": 10.18,
+        "end": 10.34
+      },
+      {
+        "id": "w_53",
+        "text": "nào",
+        "start": 10.34,
+        "end": 10.56
+      },
+      {
+        "id": "w_54",
+        "text": "họ",
+        "start": 10.56,
+        "end": 11.4
+      },
+      {
+        "id": "w_55",
+        "text": "cũng",
+        "start": 11.4,
+        "end": 11.54
+      },
+      {
+        "id": "w_56",
+        "text": "dùng",
+        "start": 11.54,
+        "end": 11.74
+      },
+      {
+        "id": "w_57",
+        "text": "ChatGPT,",
+        "start": 11.74,
+        "end": 12.46
+      },
+      {
+        "id": "w_58",
+        "text": "Claude",
+        "start": 12.65,
+        "end": 12.84
+      },
+      {
+        "id": "w_59",
+        "text": "để",
+        "start": 12.84,
+        "end": 12.94
+      },
+      {
+        "id": "w_60",
+        "text": "mà",
+        "start": 12.94,
+        "end": 13.0
+      },
+      {
+        "id": "w_61",
+        "text": "viết",
+        "start": 13.0,
+        "end": 13.2
+      },
+      {
+        "id": "w_62",
+        "text": "bài,",
+        "start": 13.2,
+        "end": 13.34
+      },
+      {
+        "id": "w_63",
+        "text": "tìm",
+        "start": 13.34,
+        "end": 13.46
+      },
+      {
+        "id": "w_64",
+        "text": "ý",
+        "start": 13.46,
+        "end": 13.6
+      },
+      {
+        "id": "w_65",
+        "text": "tưởng,",
+        "start": 13.6,
+        "end": 13.72
+      },
+      {
+        "id": "w_66",
+        "text": "tóm",
+        "start": 13.72,
+        "end": 14.2
+      },
+      {
+        "id": "w_67",
+        "text": "tắt",
+        "start": 14.2,
+        "end": 14.34
+      },
+      {
+        "id": "w_68",
+        "text": "tài",
+        "start": 14.35,
+        "end": 14.44
+      },
+      {
+        "id": "w_69",
+        "text": "liệu...",
+        "start": 14.44,
+        "end": 14.62
+      },
+      {
+        "id": "w_70",
+        "text": "chẳng",
+        "start": 14.84,
+        "end": 14.92
+      },
+      {
+        "id": "w_71",
+        "text": "lẽ",
+        "start": 14.92,
+        "end": 15.02
+      },
+      {
+        "id": "w_72",
+        "text": "lại",
+        "start": 15.02,
+        "end": 15.2
+      },
+      {
+        "id": "w_73",
+        "text": "bỏ?\"",
+        "start": 15.21,
+        "end": 15.32
+      }
+    ]
+  },
+  {
+    "id": "phrase_5",
+    "start": 15.62,
+    "end": 17.82,
+    "words": [
+      {
+        "id": "w_74",
+        "text": "Không,",
+        "start": 15.62,
+        "end": 16.34
+      },
+      {
+        "id": "w_75",
+        "text": "mình",
+        "start": 16.34,
+        "end": 16.74
+      },
+      {
+        "id": "w_76",
+        "text": "không",
+        "start": 16.74,
+        "end": 16.9
+      },
+      {
+        "id": "w_77",
+        "text": "hề",
+        "start": 16.9,
+        "end": 17.08
+      },
+      {
+        "id": "w_78",
+        "text": "khuyên",
+        "start": 17.08,
+        "end": 17.18
+      },
+      {
+        "id": "w_79",
+        "text": "các",
+        "start": 17.18,
+        "end": 17.32
+      },
+      {
+        "id": "w_80",
+        "text": "bạn",
+        "start": 17.32,
+        "end": 17.4
+      },
+      {
+        "id": "w_81",
+        "text": "từ",
+        "start": 17.42,
+        "end": 17.5
+      },
+      {
+        "id": "w_82",
+        "text": "bỏ",
+        "start": 17.5,
+        "end": 17.62
+      },
+      {
+        "id": "w_83",
+        "text": "AI.",
+        "start": 17.62,
+        "end": 17.82
+      }
+    ]
+  },
+  {
+    "id": "phrase_6",
+    "start": 17.82,
+    "end": 22.18,
+    "words": [
+      {
+        "id": "w_84",
+        "text": "Cái",
+        "start": 17.82,
+        "end": 18.16
+      },
+      {
+        "id": "w_85",
+        "text": "mà",
+        "start": 18.16,
+        "end": 18.26
+      },
+      {
+        "id": "w_86",
+        "text": "mình",
+        "start": 18.26,
+        "end": 18.4
+      },
+      {
+        "id": "w_87",
+        "text": "muốn",
+        "start": 18.4,
+        "end": 18.56
+      },
+      {
+        "id": "w_88",
+        "text": "các",
+        "start": 18.56,
+        "end": 18.66
+      },
+      {
+        "id": "w_89",
+        "text": "bạn",
+        "start": 18.66,
+        "end": 18.84
+      },
+      {
+        "id": "w_90",
+        "text": "từ",
+        "start": 18.84,
+        "end": 18.98
+      },
+      {
+        "id": "w_91",
+        "text": "bỏ,",
+        "start": 18.98,
+        "end": 19.2
+      },
+      {
+        "id": "w_92",
+        "text": "đó",
+        "start": 19.2,
+        "end": 19.54
+      },
+      {
+        "id": "w_93",
+        "text": "là",
+        "start": 19.54,
+        "end": 19.62
+      },
+      {
+        "id": "w_94",
+        "text": "cái",
+        "start": 19.62,
+        "end": 19.72
+      },
+      {
+        "id": "w_95",
+        "text": "tâm",
+        "start": 19.72,
+        "end": 19.82
+      },
+      {
+        "id": "w_96",
+        "text": "lý",
+        "start": 19.82,
+        "end": 20.0
+      },
+      {
+        "id": "w_97",
+        "text": "phó",
+        "start": 20.0,
+        "end": 20.2
+      },
+      {
+        "id": "w_98",
+        "text": "mặc",
+        "start": 20.2,
+        "end": 20.4
+      },
+      {
+        "id": "w_99",
+        "text": "và",
+        "start": 20.4,
+        "end": 20.58
+      },
+      {
+        "id": "w_100",
+        "text": "thói",
+        "start": 20.58,
+        "end": 20.76
+      },
+      {
+        "id": "w_101",
+        "text": "quen",
+        "start": 20.76,
+        "end": 20.82
+      },
+      {
+        "id": "w_102",
+        "text": "làm",
+        "start": 20.82,
+        "end": 20.94
+      },
+      {
+        "id": "w_103",
+        "text": "việc",
+        "start": 20.94,
+        "end": 21.06
+      },
+      {
+        "id": "w_104",
+        "text": "theo",
+        "start": 21.06,
+        "end": 21.18
+      },
+      {
+        "id": "w_105",
+        "text": "kiểu",
+        "start": 21.2,
+        "end": 21.3
+      },
+      {
+        "id": "w_106",
+        "text": "ăn",
+        "start": 21.3,
+        "end": 21.36
+      },
+      {
+        "id": "w_107",
+        "text": "may.",
+        "start": 21.36,
+        "end": 21.52
+      },
+      {
+        "id": "w_108",
+        "text": "Các",
+        "start": 21.52,
+        "end": 21.82
+      },
+      {
+        "id": "w_109",
+        "text": "bạn",
+        "start": 21.82,
+        "end": 21.96
+      },
+      {
+        "id": "w_110",
+        "text": "thử...",
+        "start": 21.96,
+        "end": 22.18
+      }
+    ]
+  }
+]

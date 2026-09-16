@@ -129,15 +129,15 @@ function findAnchorStart(words, phrase, minStart, maxStart = Infinity) {
     for (let k = 0; k < needleTokens.length && i + k < words.length; k++) {
       window.push((words[i + k].word || "").toLowerCase());
     }
-    const joined = window.join(" ").replace(/[^a-z0-9\/\.\-]/g, " ").replace(/\s+/g, " ").trim();
-    const norm = needle.replace(/[^a-z0-9\/\.\-]/g, " ").replace(/\s+/g, " ").trim();
+    const joined = window.join(" ").replace(/[^\p{L}\p{N}\/\.\-]/gu, " ").replace(/\s+/g, " ").trim();
+    const norm = needle.replace(/[^\p{L}\p{N}\/\.\-]/gu, " ").replace(/\s+/g, " ").trim();
     if (joined.startsWith(norm)) {
       return words[i].start;
     }
     // Also try single-word substring (for things like "/context" inside "slash context")
     if (needleTokens.length === 1) {
-      const w = (words[i].word || "").toLowerCase().replace(/[^a-z0-9\/\.\-]/g, "");
-      const need = needle.replace(/[^a-z0-9\/\.\-]/g, "");
+      const w = (words[i].word || "").toLowerCase().replace(/[^\p{L}\p{N}\/\.\-]/gu, "");
+      const need = needle.replace(/[^\p{L}\p{N}\/\.\-]/gu, "");
       if (need && w.includes(need)) return words[i].start;
     }
   }

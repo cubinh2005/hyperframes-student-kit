@@ -1,0 +1,899 @@
+{
+  "engine": "phowhisper",
+  "library": "transformers",
+  "model": "vinai/phowhisper-base",
+  "language_code": "vi",
+  "text": "Ở video trước, mình có nói một câu khiến khá nhiều bạn giật mình: Đừng bao giờ phụ thuộc hoàn toàn vào các công cụ AI. Sau cái video đó thì rất nhiều bạn nhắn tin hỏi mình là: \"Nếu không phụ thuộc vào AI thì dùng nó làm sao cho hiệu quả? Ngày nào họ cũng dùng ChatGPT, Claude để mà viết bài, tìm ý tưởng, tóm tắt tài liệu... chẳng lẽ lại bỏ?\" Không, mình không hề khuyên các bạn từ bỏ AI. Cái mà mình muốn các bạn từ bỏ, đó là cái tâm lý phó mặc và thói quen làm việc theo kiểu ăn may. Các bạn thử...",
+  "words": [
+    {
+      "type": "word",
+      "text": "Ở",
+      "start": 0.15,
+      "end": 0.26,
+      "speaker_id": null,
+      "raw_whisper_text": "ở"
+    },
+    {
+      "type": "word",
+      "text": "video",
+      "start": 0.26,
+      "end": 0.34,
+      "speaker_id": null,
+      "raw_whisper_text": "video"
+    },
+    {
+      "type": "word",
+      "text": "trước,",
+      "start": 0.34,
+      "end": 0.58,
+      "speaker_id": null,
+      "raw_whisper_text": "trước"
+    },
+    {
+      "type": "word",
+      "text": "mình",
+      "start": 0.58,
+      "end": 0.72,
+      "speaker_id": null,
+      "raw_whisper_text": "mình"
+    },
+    {
+      "type": "word",
+      "text": "có",
+      "start": 0.72,
+      "end": 0.86,
+      "speaker_id": null,
+      "raw_whisper_text": "có"
+    },
+    {
+      "type": "word",
+      "text": "nói",
+      "start": 0.86,
+      "end": 0.94,
+      "speaker_id": null,
+      "raw_whisper_text": "nói"
+    },
+    {
+      "type": "word",
+      "text": "một",
+      "start": 0.94,
+      "end": 1.04,
+      "speaker_id": null,
+      "raw_whisper_text": "một"
+    },
+    {
+      "type": "word",
+      "text": "câu",
+      "start": 1.04,
+      "end": 1.22,
+      "speaker_id": null,
+      "raw_whisper_text": "câu"
+    },
+    {
+      "type": "word",
+      "text": "khiến",
+      "start": 1.22,
+      "end": 1.52,
+      "speaker_id": null,
+      "raw_whisper_text": "khiến"
+    },
+    {
+      "type": "word",
+      "text": "khá",
+      "start": 1.52,
+      "end": 1.8,
+      "speaker_id": null,
+      "raw_whisper_text": "khá"
+    },
+    {
+      "type": "word",
+      "text": "nhiều",
+      "start": 1.8,
+      "end": 1.94,
+      "speaker_id": null,
+      "raw_whisper_text": "nhiều"
+    },
+    {
+      "type": "word",
+      "text": "bạn",
+      "start": 1.94,
+      "end": 2.08,
+      "speaker_id": null,
+      "raw_whisper_text": "bạn"
+    },
+    {
+      "type": "word",
+      "text": "giật",
+      "start": 2.08,
+      "end": 2.26,
+      "speaker_id": null,
+      "raw_whisper_text": "giật"
+    },
+    {
+      "type": "word",
+      "text": "mình:",
+      "start": 2.26,
+      "end": 2.4,
+      "speaker_id": null,
+      "raw_whisper_text": "mình"
+    },
+    {
+      "type": "word",
+      "text": "Đừng",
+      "start": 2.4,
+      "end": 2.78,
+      "speaker_id": null,
+      "raw_whisper_text": "đừng"
+    },
+    {
+      "type": "word",
+      "text": "bao",
+      "start": 2.78,
+      "end": 2.94,
+      "speaker_id": null,
+      "raw_whisper_text": "bao"
+    },
+    {
+      "type": "word",
+      "text": "giờ",
+      "start": 2.94,
+      "end": 3.06,
+      "speaker_id": null,
+      "raw_whisper_text": "giờ"
+    },
+    {
+      "type": "word",
+      "text": "phụ",
+      "start": 3.06,
+      "end": 3.26,
+      "speaker_id": null,
+      "raw_whisper_text": "phụ"
+    },
+    {
+      "type": "word",
+      "text": "thuộc",
+      "start": 3.26,
+      "end": 3.32,
+      "speaker_id": null,
+      "raw_whisper_text": "thuộc"
+    },
+    {
+      "type": "word",
+      "text": "hoàn",
+      "start": 3.32,
+      "end": 3.54,
+      "speaker_id": null,
+      "raw_whisper_text": "hoàn"
+    },
+    {
+      "type": "word",
+      "text": "toàn",
+      "start": 3.54,
+      "end": 3.7,
+      "speaker_id": null,
+      "raw_whisper_text": "toàn"
+    },
+    {
+      "type": "word",
+      "text": "vào các",
+      "start": 3.7,
+      "end": 3.88,
+      "speaker_id": null,
+      "raw_whisper_text": "các"
+    },
+    {
+      "type": "word",
+      "text": "công",
+      "start": 3.88,
+      "end": 4.12,
+      "speaker_id": null,
+      "raw_whisper_text": "công"
+    },
+    {
+      "type": "word",
+      "text": "cụ",
+      "start": 4.12,
+      "end": 4.22,
+      "speaker_id": null,
+      "raw_whisper_text": "cuộc"
+    },
+    {
+      "type": "word",
+      "text": "AI.",
+      "start": 4.22,
+      "end": 4.38,
+      "speaker_id": null,
+      "raw_whisper_text": "ai"
+    },
+    {
+      "type": "word",
+      "text": "Sau",
+      "start": 4.38,
+      "end": 5.02,
+      "speaker_id": null,
+      "raw_whisper_text": "sau"
+    },
+    {
+      "type": "word",
+      "text": "cái",
+      "start": 5.02,
+      "end": 5.16,
+      "speaker_id": null,
+      "raw_whisper_text": "cái"
+    },
+    {
+      "type": "word",
+      "text": "video",
+      "start": 5.16,
+      "end": 5.34,
+      "speaker_id": null,
+      "raw_whisper_text": "video"
+    },
+    {
+      "type": "word",
+      "text": "đó",
+      "start": 5.34,
+      "end": 5.62,
+      "speaker_id": null,
+      "raw_whisper_text": "đó"
+    },
+    {
+      "type": "word",
+      "text": "thì",
+      "start": 5.62,
+      "end": 5.82,
+      "speaker_id": null,
+      "raw_whisper_text": "thì"
+    },
+    {
+      "type": "word",
+      "text": "rất",
+      "start": 5.82,
+      "end": 6.26,
+      "speaker_id": null,
+      "raw_whisper_text": "rất"
+    },
+    {
+      "type": "word",
+      "text": "nhiều",
+      "start": 6.26,
+      "end": 6.42,
+      "speaker_id": null,
+      "raw_whisper_text": "nhiều"
+    },
+    {
+      "type": "word",
+      "text": "bạn",
+      "start": 6.42,
+      "end": 6.66,
+      "speaker_id": null,
+      "raw_whisper_text": "bạn"
+    },
+    {
+      "type": "word",
+      "text": "nhắn",
+      "start": 6.66,
+      "end": 6.9,
+      "speaker_id": null,
+      "raw_whisper_text": "nhắn"
+    },
+    {
+      "type": "word",
+      "text": "tin",
+      "start": 6.9,
+      "end": 7.0,
+      "speaker_id": null,
+      "raw_whisper_text": "tin"
+    },
+    {
+      "type": "word",
+      "text": "hỏi",
+      "start": 7.0,
+      "end": 7.12,
+      "speaker_id": null,
+      "raw_whisper_text": "hỏi"
+    },
+    {
+      "type": "word",
+      "text": "mình",
+      "start": 7.12,
+      "end": 7.26,
+      "speaker_id": null,
+      "raw_whisper_text": "mình"
+    },
+    {
+      "type": "word",
+      "text": "là:",
+      "start": 7.26,
+      "end": 7.42,
+      "speaker_id": null,
+      "raw_whisper_text": "là"
+    },
+    {
+      "type": "word",
+      "text": "\"Nếu",
+      "start": 7.42,
+      "end": 7.56,
+      "speaker_id": null,
+      "raw_whisper_text": "nếu"
+    },
+    {
+      "type": "word",
+      "text": "không",
+      "start": 7.56,
+      "end": 7.72,
+      "speaker_id": null,
+      "raw_whisper_text": "không"
+    },
+    {
+      "type": "word",
+      "text": "phụ",
+      "start": 7.72,
+      "end": 7.88,
+      "speaker_id": null,
+      "raw_whisper_text": "phụ"
+    },
+    {
+      "type": "word",
+      "text": "thuộc",
+      "start": 7.88,
+      "end": 8.02,
+      "speaker_id": null,
+      "raw_whisper_text": "thuộc"
+    },
+    {
+      "type": "word",
+      "text": "vào",
+      "start": 8.02,
+      "end": 8.4,
+      "speaker_id": null,
+      "raw_whisper_text": "vào"
+    },
+    {
+      "type": "word",
+      "text": "AI",
+      "start": 8.4,
+      "end": 8.62,
+      "speaker_id": null,
+      "raw_whisper_text": "ai"
+    },
+    {
+      "type": "word",
+      "text": "thì",
+      "start": 8.84,
+      "end": 9.04,
+      "speaker_id": null,
+      "raw_whisper_text": "thì"
+    },
+    {
+      "type": "word",
+      "text": "dùng",
+      "start": 9.04,
+      "end": 9.2,
+      "speaker_id": null,
+      "raw_whisper_text": "dùng"
+    },
+    {
+      "type": "word",
+      "text": "nó",
+      "start": 9.2,
+      "end": 9.38,
+      "speaker_id": null,
+      "raw_whisper_text": "nó"
+    },
+    {
+      "type": "word",
+      "text": "làm",
+      "start": 9.38,
+      "end": 9.56,
+      "speaker_id": null,
+      "raw_whisper_text": "làm"
+    },
+    {
+      "type": "word",
+      "text": "sao",
+      "start": 9.63,
+      "end": 9.74,
+      "speaker_id": null,
+      "raw_whisper_text": "sao"
+    },
+    {
+      "type": "word",
+      "text": "cho",
+      "start": 9.74,
+      "end": 9.84,
+      "speaker_id": null,
+      "raw_whisper_text": "cho"
+    },
+    {
+      "type": "word",
+      "text": "hiệu",
+      "start": 9.84,
+      "end": 10.0,
+      "speaker_id": null,
+      "raw_whisper_text": "dù"
+    },
+    {
+      "type": "word",
+      "text": "quả?",
+      "start": 10.0,
+      "end": 10.18,
+      "speaker_id": null,
+      "raw_whisper_text": "quả"
+    },
+    {
+      "type": "word",
+      "text": "Ngày",
+      "start": 10.18,
+      "end": 10.34,
+      "speaker_id": null,
+      "raw_whisper_text": "ngày"
+    },
+    {
+      "type": "word",
+      "text": "nào",
+      "start": 10.34,
+      "end": 10.56,
+      "speaker_id": null,
+      "raw_whisper_text": "nào"
+    },
+    {
+      "type": "word",
+      "text": "họ",
+      "start": 10.56,
+      "end": 11.4,
+      "speaker_id": null,
+      "raw_whisper_text": "họ"
+    },
+    {
+      "type": "word",
+      "text": "cũng",
+      "start": 11.4,
+      "end": 11.54,
+      "speaker_id": null,
+      "raw_whisper_text": "cũng"
+    },
+    {
+      "type": "word",
+      "text": "dùng",
+      "start": 11.54,
+      "end": 11.74,
+      "speaker_id": null,
+      "raw_whisper_text": "dùng"
+    },
+    {
+      "type": "word",
+      "text": "ChatGPT,",
+      "start": 11.74,
+      "end": 12.46,
+      "speaker_id": null,
+      "raw_whisper_text": "jessicae"
+    },
+    {
+      "type": "word",
+      "text": "Claude",
+      "start": 12.65,
+      "end": 12.84,
+      "speaker_id": null,
+      "raw_whisper_text": "klopp"
+    },
+    {
+      "type": "word",
+      "text": "để",
+      "start": 12.84,
+      "end": 12.94,
+      "speaker_id": null,
+      "raw_whisper_text": "để"
+    },
+    {
+      "type": "word",
+      "text": "mà",
+      "start": 12.94,
+      "end": 13.0,
+      "speaker_id": null,
+      "raw_whisper_text": "mà"
+    },
+    {
+      "type": "word",
+      "text": "viết",
+      "start": 13.0,
+      "end": 13.2,
+      "speaker_id": null,
+      "raw_whisper_text": "viết"
+    },
+    {
+      "type": "word",
+      "text": "bài,",
+      "start": 13.2,
+      "end": 13.34,
+      "speaker_id": null,
+      "raw_whisper_text": "bài"
+    },
+    {
+      "type": "word",
+      "text": "tìm",
+      "start": 13.34,
+      "end": 13.46,
+      "speaker_id": null,
+      "raw_whisper_text": "tìm"
+    },
+    {
+      "type": "word",
+      "text": "ý",
+      "start": 13.46,
+      "end": 13.6,
+      "speaker_id": null,
+      "raw_whisper_text": "ý"
+    },
+    {
+      "type": "word",
+      "text": "tưởng,",
+      "start": 13.6,
+      "end": 13.72,
+      "speaker_id": null,
+      "raw_whisper_text": "tưởng"
+    },
+    {
+      "type": "word",
+      "text": "tóm",
+      "start": 13.72,
+      "end": 14.2,
+      "speaker_id": null,
+      "raw_whisper_text": "tống"
+    },
+    {
+      "type": "word",
+      "text": "tắt",
+      "start": 14.2,
+      "end": 14.34,
+      "speaker_id": null,
+      "raw_whisper_text": "tác"
+    },
+    {
+      "type": "word",
+      "text": "tài",
+      "start": 14.35,
+      "end": 14.44,
+      "speaker_id": null,
+      "raw_whisper_text": "tài"
+    },
+    {
+      "type": "word",
+      "text": "liệu...",
+      "start": 14.44,
+      "end": 14.62,
+      "speaker_id": null,
+      "raw_whisper_text": "liệu"
+    },
+    {
+      "type": "word",
+      "text": "chẳng",
+      "start": 14.84,
+      "end": 14.92,
+      "speaker_id": null,
+      "raw_whisper_text": "bây"
+    },
+    {
+      "type": "word",
+      "text": "lẽ",
+      "start": 14.92,
+      "end": 15.02,
+      "speaker_id": null,
+      "raw_whisper_text": "giờ"
+    },
+    {
+      "type": "word",
+      "text": "lại",
+      "start": 15.02,
+      "end": 15.2,
+      "speaker_id": null,
+      "raw_whisper_text": "chẳng"
+    },
+    {
+      "type": "word",
+      "text": "bỏ?\"",
+      "start": 15.21,
+      "end": 15.32,
+      "speaker_id": null,
+      "raw_whisper_text": "lại"
+    },
+    {
+      "type": "word",
+      "text": "Không,",
+      "start": 15.62,
+      "end": 16.34,
+      "speaker_id": null,
+      "raw_whisper_text": "không"
+    },
+    {
+      "type": "word",
+      "text": "mình",
+      "start": 16.34,
+      "end": 16.74,
+      "speaker_id": null,
+      "raw_whisper_text": "mình"
+    },
+    {
+      "type": "word",
+      "text": "không",
+      "start": 16.74,
+      "end": 16.9,
+      "speaker_id": null,
+      "raw_whisper_text": "không"
+    },
+    {
+      "type": "word",
+      "text": "hề",
+      "start": 16.9,
+      "end": 17.08,
+      "speaker_id": null,
+      "raw_whisper_text": "hiểu"
+    },
+    {
+      "type": "word",
+      "text": "khuyên",
+      "start": 17.08,
+      "end": 17.18,
+      "speaker_id": null,
+      "raw_whisper_text": "khuyên"
+    },
+    {
+      "type": "word",
+      "text": "các",
+      "start": 17.18,
+      "end": 17.32,
+      "speaker_id": null,
+      "raw_whisper_text": "các"
+    },
+    {
+      "type": "word",
+      "text": "bạn",
+      "start": 17.32,
+      "end": 17.4,
+      "speaker_id": null,
+      "raw_whisper_text": "bạn"
+    },
+    {
+      "type": "word",
+      "text": "từ",
+      "start": 17.42,
+      "end": 17.5,
+      "speaker_id": null,
+      "raw_whisper_text": "từ"
+    },
+    {
+      "type": "word",
+      "text": "bỏ",
+      "start": 17.5,
+      "end": 17.62,
+      "speaker_id": null,
+      "raw_whisper_text": "bỏ"
+    },
+    {
+      "type": "word",
+      "text": "AI.",
+      "start": 17.62,
+      "end": 17.82,
+      "speaker_id": null,
+      "raw_whisper_text": "ai"
+    },
+    {
+      "type": "word",
+      "text": "Cái",
+      "start": 17.82,
+      "end": 18.16,
+      "speaker_id": null,
+      "raw_whisper_text": "cái"
+    },
+    {
+      "type": "word",
+      "text": "mà",
+      "start": 18.16,
+      "end": 18.26,
+      "speaker_id": null,
+      "raw_whisper_text": "mà"
+    },
+    {
+      "type": "word",
+      "text": "mình",
+      "start": 18.26,
+      "end": 18.4,
+      "speaker_id": null,
+      "raw_whisper_text": "mình"
+    },
+    {
+      "type": "word",
+      "text": "muốn",
+      "start": 18.4,
+      "end": 18.56,
+      "speaker_id": null,
+      "raw_whisper_text": "muốn"
+    },
+    {
+      "type": "word",
+      "text": "các",
+      "start": 18.56,
+      "end": 18.66,
+      "speaker_id": null,
+      "raw_whisper_text": "các"
+    },
+    {
+      "type": "word",
+      "text": "bạn",
+      "start": 18.66,
+      "end": 18.84,
+      "speaker_id": null,
+      "raw_whisper_text": "bạn"
+    },
+    {
+      "type": "word",
+      "text": "từ",
+      "start": 18.84,
+      "end": 18.98,
+      "speaker_id": null,
+      "raw_whisper_text": "từ"
+    },
+    {
+      "type": "word",
+      "text": "bỏ,",
+      "start": 18.98,
+      "end": 19.2,
+      "speaker_id": null,
+      "raw_whisper_text": "bỏ"
+    },
+    {
+      "type": "word",
+      "text": "đó",
+      "start": 19.2,
+      "end": 19.54,
+      "speaker_id": null,
+      "raw_whisper_text": "đó"
+    },
+    {
+      "type": "word",
+      "text": "là",
+      "start": 19.54,
+      "end": 19.62,
+      "speaker_id": null,
+      "raw_whisper_text": "là"
+    },
+    {
+      "type": "word",
+      "text": "cái",
+      "start": 19.62,
+      "end": 19.72,
+      "speaker_id": null,
+      "raw_whisper_text": "cái"
+    },
+    {
+      "type": "word",
+      "text": "tâm",
+      "start": 19.72,
+      "end": 19.82,
+      "speaker_id": null,
+      "raw_whisper_text": "tâm"
+    },
+    {
+      "type": "word",
+      "text": "lý",
+      "start": 19.82,
+      "end": 20.0,
+      "speaker_id": null,
+      "raw_whisper_text": "lý"
+    },
+    {
+      "type": "word",
+      "text": "phó",
+      "start": 20.0,
+      "end": 20.2,
+      "speaker_id": null,
+      "raw_whisper_text": "phó"
+    },
+    {
+      "type": "word",
+      "text": "mặc",
+      "start": 20.2,
+      "end": 20.4,
+      "speaker_id": null,
+      "raw_whisper_text": "mặc"
+    },
+    {
+      "type": "word",
+      "text": "và",
+      "start": 20.4,
+      "end": 20.58,
+      "speaker_id": null,
+      "raw_whisper_text": "và"
+    },
+    {
+      "type": "word",
+      "text": "thói",
+      "start": 20.58,
+      "end": 20.76,
+      "speaker_id": null,
+      "raw_whisper_text": "thói"
+    },
+    {
+      "type": "word",
+      "text": "quen",
+      "start": 20.76,
+      "end": 20.82,
+      "speaker_id": null,
+      "raw_whisper_text": "quen"
+    },
+    {
+      "type": "word",
+      "text": "làm",
+      "start": 20.82,
+      "end": 20.94,
+      "speaker_id": null,
+      "raw_whisper_text": "làm"
+    },
+    {
+      "type": "word",
+      "text": "việc",
+      "start": 20.94,
+      "end": 21.06,
+      "speaker_id": null,
+      "raw_whisper_text": "việc"
+    },
+    {
+      "type": "word",
+      "text": "theo",
+      "start": 21.06,
+      "end": 21.18,
+      "speaker_id": null,
+      "raw_whisper_text": "thời"
+    },
+    {
+      "type": "word",
+      "text": "kiểu",
+      "start": 21.2,
+      "end": 21.3,
+      "speaker_id": null,
+      "raw_whisper_text": "kỳ"
+    },
+    {
+      "type": "word",
+      "text": "ăn",
+      "start": 21.3,
+      "end": 21.36,
+      "speaker_id": null,
+      "raw_whisper_text": "ăn"
+    },
+    {
+      "type": "word",
+      "text": "may.",
+      "start": 21.36,
+      "end": 21.52,
+      "speaker_id": null,
+      "raw_whisper_text": "may"
+    },
+    {
+      "type": "word",
+      "text": "Các",
+      "start": 21.52,
+      "end": 21.82,
+      "speaker_id": null,
+      "raw_whisper_text": "các"
+    },
+    {
+      "type": "word",
+      "text": "bạn",
+      "start": 21.82,
+      "end": 21.96,
+      "speaker_id": null,
+      "raw_whisper_text": "bạn"
+    },
+    {
+      "type": "word",
+      "text": "thử...",
+      "start": 21.96,
+      "end": 22.18,
+      "speaker_id": null,
+      "raw_whisper_text": "thưởng."
+    }
+  ],
+  "aligned": true,
+  "aligned_with": "master_script.md"
+}

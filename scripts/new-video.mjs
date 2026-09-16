@@ -18,7 +18,23 @@ mkdirSync(join(dest, 'assets'), { recursive: true });
 mkdirSync(join(dest, 'compositions'), { recursive: true });
 mkdirSync(join(dest, 'renders'), { recursive: true });
 copyFileSync(gsap, join(dest, 'assets/gsap.min.js'));
+if (existsSync(join(root, 'assets/brand-tokens.css'))) {
+  copyFileSync(join(root, 'assets/brand-tokens.css'), join(dest, 'assets/brand-tokens.css'));
+}
+if (existsSync(join(root, 'assets/logo.png'))) {
+  copyFileSync(join(root, 'assets/logo.png'), join(dest, 'assets/logo.png'));
+}
 const meta = JSON.parse(readFileSync(join(dest, 'meta.json'), 'utf8'));
 meta.name = slug;
 writeFileSync(join(dest, 'meta.json'), JSON.stringify(meta, null, 2) + '\n');
+const indexPath = join(dest, 'index.html');
+if (existsSync(indexPath)) {
+  let indexHtml = readFileSync(indexPath, 'utf8');
+  indexHtml = indexHtml
+    .replaceAll('data-composition-id="starter"', `data-composition-id="${slug}"`)
+    .replaceAll("window.__timelines['starter']", `window.__timelines['${slug}']`)
+    .replaceAll('id="starter"', `id="${slug}"`)
+    .replace('<title>Studio Starter — HyperFrames</title>', `<title>${slug} — HyperFrames</title>`);
+  writeFileSync(indexPath, indexHtml);
+}
 console.log(`Created video-projects/${slug}. Run HyperFrames from that folder.`);

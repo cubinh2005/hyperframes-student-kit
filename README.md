@@ -28,8 +28,8 @@ https://github.com/user-attachments/assets/4ad48761-d14c-407a-9dec-1b76a9afb04a
 - Transcription, silence cutting, mistake detection, reviewed cut rendering,
   transcript retiming, EDL review, beat-sync validation, and preflight tools.
 - **Short-form editing:** reels, YouTube Shorts, hook and payoff planning, precise captions, moving B-roll, and audio review.
-- **12 existing teaching projects** preserved from the original student kit.
-- A synthetic starter composition and editing fixture that need no footage or API key.
+- **Reference projects:** active studio production (`ai-glass-explainer`) and left-glass interaction model (`claude-edit-intro`).
+- A modern frosted-glass starter scaffold (`examples/starter/`) created via `npm run new-video -- <slug>`.
 
 ## Tools and optional services
 
@@ -107,14 +107,10 @@ mapping, scene coverage, and footage reuse. It is an agent-guided workflow;
 review the actual motion and audio before publishing.
 [Short-form walkthrough and validation commands](docs/SHORT-FORM.md).
 
-## Existing examples and migration
+## Active projects and reference architecture
 
-This is the main student-kit repository. The newer video-pipeline kit has been
-merged here with both Git histories preserved. The original 12 projects remain
-in `video-projects/`, alongside the original shared brand examples and the
-`make-a-video`, `short-form-video`, and `website-to-hyperframes` skills.
-Use `short-form-edit` for new reels; `short-form-video` documents the older May
-Shorts compositions. [Migration and compatibility notes](docs/MIGRATION.md).
+The active production video is `video-projects/ai-glass-explainer/` (AIS brand, frosted glass, PiP mode), alongside the reference interaction model in `video-projects/claude-edit-intro/`.
+Use `short-form-edit` for reels and Shorts, `edit-video` for full long-form production, and `examples/starter/` as the canonical scaffold for new projects.
 
 ## Explore and customize
 

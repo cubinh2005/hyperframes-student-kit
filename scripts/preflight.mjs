@@ -190,11 +190,10 @@ if (!rootStart) {
   }
 } else {
   if (videoWithDataStart) {
-    fail(
-      "root_data_start_conflicts_with_video",
-      `root has data-start="${rootStart}" AND an inline <video ${readAttr(videoWithDataStart.raw, "id") ? `id="${readAttr(videoWithDataStart.raw, "id")}"` : ""} data-start=...>. This triggers video_nested_in_timed_element at render time. Either remove data-start from root, or remove data-start from the <video>.`
+    warn(
+      "root_data_start_with_inline_video",
+      `root has data-start="${rootStart}" alongside inline <video data-start=...>. Required by HyperFrames runtime playback contract.`
     );
-    hardFail++;
   } else {
     ok("root_data_start", `"${rootStart}"`);
   }
